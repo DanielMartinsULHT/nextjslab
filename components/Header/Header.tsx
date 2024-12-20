@@ -9,7 +9,8 @@ export default function Header() {
         <nav className=''>
             <Link href='/'>Home </Link>
             <Link href='/produtos'>Produtos </Link>
-            <Link href='/tecnologias'>Tecnologias</Link>
+            <Link href='/tecnologias'>Tecnologias </Link>
+            <Link href='/municipalities'>Municipalities</Link>
 
         </nav>
     </header>
