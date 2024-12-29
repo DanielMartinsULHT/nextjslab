@@ -9,7 +9,7 @@ import MunicipalityCard from '@/components/MunicipalityCard/MunicipalityCard';
 export default function Municipalities() {
 
     const fetcher = (url: string) => fetch(url).then(res => res.json())
-    const { data, error, isLoading } = useSWR<Municipality[], Error>('/api/products',fetcher);
+    const { data, error, isLoading } = useSWR<Municipality[], Error>('/api/municipalities',fetcher);
 
     if (error) return <div>Failed to load</div>;
     if (isLoading) return <div>Loading...</div>;
