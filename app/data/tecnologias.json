@@ -1,6 +1,77 @@
 {
-    "title": "HTML",
-    "image": "something",
-    "description": "Linguagem de marcação de texto",
-    "rating": "3"
+    "tecnologias": [
+        {
+            "title": "HTML",
+            "image": "something",
+            "description": "Linguagem de marcação de texto",
+            "rating": 3 
+        },
+        {
+            "title": "CSS",
+            "image": "something",
+            "description": "Identidade visual da web",
+            "rating": 3
+        },
+        {
+            "title": "Javascript",
+            "image":"something",
+            "description": "Páginas dinâmicas",
+            "rating": 5
+        },
+        {
+            "title": "JSON",
+            "image":"something",
+            "description":"Dados formatados para a web",
+            "rating": 2
+        },
+        {
+            "title": "API RESTful",
+            "image": "something",
+            "description": "Protocolo de interfaces de integração com um sistema externo",
+            "rating": 4
+        },
+        {
+            "title":"Swagger",
+            "image":"something",
+            "description": "Plataforma para apresentar especificações de uma API",
+            "rating": 5
+        },
+        {
+            "title":"GitHub",
+            "image": "something octocat",
+            "description": "Plataforma para hospedar código (entre outras cenas)",
+            "rating": 5
+        },
+        {
+            "title": "Codespaces",
+            "image":"something octocat",
+            "description": "Plataforma para programar no browser",
+            "rating": 5
+        },
+        {
+            "title": "GitHub Pages",
+            "image": "something octocat",
+            "description":"Plataforma para hospedar sites estáticos no Github",
+            "rating": 4
+        },
+        {
+            "title": "React.js",
+            "image": "something",
+            "description":"Biblioteca Javascript para criar elementos de UI",
+            "rating": 5
+        },
+        {
+            "title":"Next.js",
+            "image":"something",
+            "description":"Framework javascript com a biblioteca React.js e Node.js",
+            "rating": 5
+        },
+        {
+            "title": "Vercel",
+            "image": "something",
+            "description": "Plataforma para hospedagem de sites, e a empresa por trás do Next.js",
+            "rating": 4
+        }
+    ]
+
 }
