@@ -15,33 +15,29 @@
 }
 
 body {
-  /* Box Model */
+  /* Reset Box Model */
   margin: 0;
   padding: 0;
-  height: 100vh;
 
-  /* Layout e Posicionamento */
+  /* Layout global */
+  min-height: 100vh; /* Garante que o body preencha a tela */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  /* Fundo e Estética */
+  flex-direction: column; /* Coloca o header, main e footer em coluna */
+  justify-content: space-between; /* Garante que o footer fique no fim */
+  
+  /* Fundo */
   background: url('https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png');
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat;
+  background-size: auto; /* Repetição natural do fundo */
+  background-position: center;
+  background-repeat: repeat;
 }
 
 main {
-  /* Reset e Box Model */
-  width: 320px;
-  height: 450px;
+  flex: 1; /* Garante que o conteúdo principal expanda para preencher o espaço entre header e footer */
   padding: 20px;
-  border-radius: 20px;
-  overflow-y: auto;
-
-  /* Fundo */
-  background: whitesmoke;
+  max-width: 1200px; /* Limita a largura do conteúdo */
+  margin: 0 auto; /* Centraliza o main horizontalmente */
+  width: 100%;
 }
+
 

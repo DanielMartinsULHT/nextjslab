@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Header() {
  return (
-    <header className='p-10px bg-transparent font-bold'>
+    <header className=' text-gray-950 font-bold text-center p-4 mx-auto w-full max-w-screen-lg'>
         <h1>React & Next.js</h1>
         <nav className=''>
             <Link href='/'>Home </Link>
