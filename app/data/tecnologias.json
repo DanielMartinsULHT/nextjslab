@@ -2,73 +2,73 @@
     "tecnologias": [
         {
             "title": "HTML",
-            "image": "something",
+            "image": "https://cdn.pixabay.com/photo/2018/05/08/21/28/html5-3384014_1280.png",
             "description": "Linguagem de marcação de texto",
             "rating": 3 
         },
         {
             "title": "CSS",
-            "image": "something",
+            "image": "https://cdn.pixabay.com/photo/2022/03/21/21/44/file-7084005_1280.png",
             "description": "Identidade visual da web",
             "rating": 3
         },
         {
             "title": "Javascript",
-            "image":"something",
+            "image":"https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png",
             "description": "Páginas dinâmicas",
             "rating": 5
         },
         {
             "title": "JSON",
-            "image":"something",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/800px-JSON_vector_logo.svg.png",
             "description":"Dados formatados para a web",
             "rating": 2
         },
         {
             "title": "API RESTful",
-            "image": "something",
+            "image": "https://media.istockphoto.com/id/1694542868/pt/vetorial/api-vector-outline-icon-illustration-eps-10-file.jpg?s=1024x1024&w=is&k=20&c=vi0_lKUbrbrJJjMPiXg8jjY29mPyFTjRfKUaOmEQ9X8=",
             "description": "Protocolo de interfaces de integração com um sistema externo",
             "rating": 4
         },
         {
             "title":"Swagger",
-            "image":"something",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/a/ab/Swagger-logo.png",
             "description": "Plataforma para apresentar especificações de uma API",
             "rating": 5
         },
         {
             "title":"GitHub",
-            "image": "something octocat",
+            "image": "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png",
             "description": "Plataforma para hospedar código (entre outras cenas)",
             "rating": 5
         },
         {
             "title": "Codespaces",
-            "image":"something octocat",
+            "image":"https://github.gallerycdn.vsassets.io/extensions/github/codespaces/1.17.3/1726066722785/Microsoft.VisualStudio.Services.Icons.Default",
             "description": "Plataforma para programar no browser",
             "rating": 5
         },
         {
             "title": "GitHub Pages",
-            "image": "something octocat",
+            "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/collections/github-pages-examples/github-pages-examples.png",
             "description":"Plataforma para hospedar sites estáticos no Github",
             "rating": 4
         },
         {
             "title": "React.js",
-            "image": "something",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg1MndL-Xp1JcnqaB0YOqTp6zDjrwYyGKsPA&s",
             "description":"Biblioteca Javascript para criar elementos de UI",
             "rating": 5
         },
         {
             "title":"Next.js",
-            "image":"something",
+            "image":"https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_1280.png",
             "description":"Framework javascript com a biblioteca React.js e Node.js",
             "rating": 5
         },
         {
             "title": "Vercel",
-            "image": "something",
+            "image": "https://w7.pngwing.com/pngs/436/888/png-transparent-vercel-hd-logo-thumbnail.png",
             "description": "Plataforma para hospedagem de sites, e a empresa por trás do Next.js",
             "rating": 4
         }
